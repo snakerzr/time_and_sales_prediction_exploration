@@ -128,7 +128,7 @@ def make_df_save_csv(queue_0,
 
 
 # def main(ticker,path,end_hour=0,memory_threshold=1e+9,terminate_time=None):        
-def main(ticker,path,end_hour=0,size_threshold=100000,memory_threshold=0,fterminate_time=None): 
+def main(ticker,path,end_hour=0,size_threshold=100000,memory_threshold=0,terminate_time=None): 
 
     q_0 = multiprocessing.Queue()
     q_1 = multiprocessing.Queue()

@@ -32,7 +32,7 @@ if __name__ == '__main__':
     ticker = 'RIU2'
     # end_hour = 0
     memory_thresholds = [1e+6,1e+7,1e+8]
-    test_time = 30
+    test_time = 600
     
     funcs = {
              'sequential':               sequential_start,
