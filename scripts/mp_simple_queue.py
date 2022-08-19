@@ -80,8 +80,9 @@ if __name__ == '__main__':
         
     ticker = 'RIU2'
     end_hour = 0
-    memory_threshold = 1e+7
+    memory_threshold = 1e+6
     path = '../data/mp_simple_queue/'
     terminate_time = 900
-    main(ticker,path,end_hour=end_hour,memory_threshold=memory_threshold,terminate_time=terminate_time)
+    # main(ticker,path,end_hour=end_hour,memory_threshold=memory_threshold,terminate_time=terminate_time)
+    main(ticker,path,end_hour=end_hour,memory_threshold=memory_threshold)
 
