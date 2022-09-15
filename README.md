@@ -13,7 +13,7 @@ Progress:
 [x] - Data acquisition from market directly including level 1 and level 2 data  
 [x] - Simple preprocessing. Tick to 1min, volume, dollar bars.  
 [x] - ML prototyping sketches  
-[x] - Backtesting framework sketch
+[x] - Backtesting framework sketch  
 [ ] - Advanced data preprocessing
 
 Additional stuff done:  
